@@ -1,0 +1,39 @@
+.col {
+  width: 140px;
+  height: 140px;
+  border-radius: 5px;
+  background-color: #108bb1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: white;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.col:hover {
+  width: 140px;
+  height: 140px;
+  border-radius: 5px;
+  background-color: #108bb1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  opacity: 1;
+  color: white;
+}
+
+
+.row div {
+  margin: 5px 5px;
+}
+
+.my-turn {
+  padding: 4px;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+  color: #fafafa;
+  background-color: rgb(96, 179, 212);
+}
